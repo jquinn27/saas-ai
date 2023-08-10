@@ -56,7 +56,7 @@ export default function LandingContent({}: Props) {
                 </div>
               </CardTitle>
               <CardContent className="pt-4 px-0">
-                "{testimonial.description}"
+                &quot;{testimonial.description}&quot;
               </CardContent>
             </CardHeader>
           </Card>
