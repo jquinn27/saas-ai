@@ -41,14 +41,14 @@ export default function LandingContent({}: Props) {
         {testimonials.map((testimonial) => (
           <Card
             key={testimonial.description}
-            className="bg-[#192339] border-none text-white"
+            className="bg-neutral-800 border-none text-white"
           >
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div className="w-full">
                   <div className="flex justify-between">
                     <p className="text-lg">{testimonial.name}</p>
-                    <span className="w-8 h-8 cursor-default rounded-full text-sm leading-8 text-white text-center bg-[#111827] inline-block">
+                    <span className="w-8 h-8 cursor-default rounded-full text-sm leading-8 text-white text-center bg-neutral-900 inline-block">
                       {testimonial.avatar}
                     </span>
                   </div>
