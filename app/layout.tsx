@@ -22,7 +22,7 @@ export default function RootLayout({
       <html lang="en" className="bg-neutral-900">
         <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3470912725730929"
-     crossorigin="anonymous"></script>
+     ></script>
         </head>
         <CrispProvider />
         <body className={inter.className}>
